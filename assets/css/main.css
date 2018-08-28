@@ -1,19 +1,19 @@
 html,
 body {
-    margin: 0;
+  margin: 0;
 }
 
 body {
-    background: linear-gradient(to right, steelblue, lightyellow);
+  background: linear-gradient(to right, steelblue, lightyellow);
 }
 
 #container {
-    border: 2px solid grey;
-    width: 360px;
-    margin: 0 auto;
+  border: 2px solid grey;
+  width: 360px;
+  margin: 0 auto;
 }
 
 .completed {
-    color: grey;
-    text-decoration: line-through;
+  color: grey;
+  text-decoration: line-through;
 }
