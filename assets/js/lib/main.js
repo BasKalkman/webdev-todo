@@ -10,8 +10,8 @@ $("ul").on("click", "span", function(e) {
     .parent()
     .fadeOut(500, function() {
       $(this).remove();
+      updateLocalStorage();
     });
-  updateLocalStorage();
 });
 
 // Create new todo
