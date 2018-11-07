@@ -1,11 +1,7 @@
 body {
   margin: 0;
   background: #2bc0e4; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #eaecc6,
-    #2bc0e4
-  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #eaecc6, #2bc0e4); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
     #eaecc6,
@@ -77,7 +73,7 @@ input:focus {
 }
 #container {
   box-shadow: 0 0 3 rgba(0, 0, 0, 0.1);
-  width: 360px;
+  width: 800px;
   margin: 100px auto;
   background: #f7f7f7;
 }
